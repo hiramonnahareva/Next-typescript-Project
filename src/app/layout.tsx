@@ -7,7 +7,6 @@ import { Toaster } from '@/components/ui/Toast'
 
 const inter = Inter({subsets: ['latin']})
 
-
 export default function RootLayout({
   children,
 }: {
@@ -22,7 +21,6 @@ export default function RootLayout({
         <Providers>
           {children}
           <Toaster position='bottom-right'/>
-          {/*  */}
           <Navbar/>
           </Providers>
 

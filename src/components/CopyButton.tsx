@@ -22,9 +22,11 @@ const CopyButton: FC<CopyButtonProps> = ({
         type: 'success'
         })
   }}
+           
   variant='ghost'
   className={className}
   >
+    
     <Copy className='h-5 w-5'/>
     </Button>
 }
